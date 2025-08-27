@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box; /* calcular larguras e altura dos elementos */
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.conteudo {
+    width: 100%;
+    display: flex;
+    align-items: center; /* alinhar itens no centro */
+    justify-content: space-between;
+}
+
+.caixa-texto {
+    width: 600px;
+}
+
+h1 {
+    color: #333;
+    font-size: 60px; /* tamanho da fonte */
+    font-weight: bold; /* largura da fonte */
+}
+
+span {
+    color: #017143;
+    font-size: 70px;
+    font-weight: 900;
+}
+
+p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button {
+    background: #017143;
+    color: #ffff;
+    border-radius: 40px; /* arredondamento das bordas */
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer; /* muda o cursor do mouse */
+    transition: 0.5s;
+}
+
+button:hover {
+    background: #033822;
+}
+
+.quadro-imagem {
+    width: 600px;
+    display: flex;
+    justify-content: end;
+    margin-top: 250px;
+}
+
+.starbucks {
+    width: 340px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.botao-menu {
+    width: 60px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.botao-menu:hover {
+    transform: translateY(-30px);
+}
+
+.circulo {
+    background: #017143;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: circle(600px at right 800px); /* corta a imagem */
+    z-index: -1;
+}
+
+.verde {
+    background: #017143;
+}
+
+.rose {
+    background: #d8a9eb;
+}
+
+.rosa {
+    background: #c00eb1;
+}
